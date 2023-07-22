@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "property-field-site-picker-control-client-side-solution",
+    "id": "b9a0a63f-acd7-48e6-b468-5b87ed8149ad",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "property-field-site-picker-control description"
+      },
+      "longDescription": {
+        "default": "property-field-site-picker-control description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "property-field-site-picker-control Feature",
+        "description": "The feature that activates elements of the property-field-site-picker-control solution.",
+        "id": "086a31ad-7d5e-48ab-af43-e7607e0af7f0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/property-field-site-picker-control.sppkg"
+  }
+}

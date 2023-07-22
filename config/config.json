@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "property-field-site-picker-control-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldSitePickerControl/PropertyFieldSitePickerControlWebPart.js",
+          "manifest": "./src/webparts/propertyFieldSitePickerControl/PropertyFieldSitePickerControlWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PropertyFieldSitePickerControlWebPartStrings": "lib/webparts/propertyFieldSitePickerControl/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
