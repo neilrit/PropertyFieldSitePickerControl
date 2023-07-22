@@ -20,7 +20,7 @@ export default class PropertyFieldSitePickerControl extends React.Component<IPro
   }    
     
   public componentDidMount() {   
-    console.log(this.state.siteUsres); 
+  
     this.getSiteGroups();    
     this.getSiteUsres();    
   }    
